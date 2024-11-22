@@ -13,7 +13,7 @@ from gtda.diagrams import HeatKernel
 
 
 A = []
-path = 'C:\\Users\\HP\\Desktop\\muzika6'
+path = 'C:\\Users\\HP\\Desktop\\muzika12'
 #window_length = 0.4  # 0.05 seconds
 
 A=[]
