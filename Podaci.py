@@ -12,12 +12,12 @@ from tqdm import tqdm
 from gtda.diagrams import HeatKernel
 
 
-A = []
-path = 'C:\\Users\\HP\\Desktop\\muzika12'
+#A = []
+#path = 'muzika11'
 #window_length = 0.4  # 0.05 seconds
 
 A=[]
-path='C:\\Users\\HP\\Desktop\\muzika11'
+path='muzika12'
 
 for filename in os.listdir(path):
     if filename.split('.')[-1] == 'wav':

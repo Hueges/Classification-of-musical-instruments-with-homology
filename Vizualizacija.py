@@ -17,7 +17,7 @@ from gtda.diagrams import HeatKernel
 
 #ucitavamo podatke iz foldera muzika 12 koji sadrzi wav fajl flaute,klavira, trube i violine
 B=[]
-path2='C:\\Users\\HP\\Desktop\\muzika12'
+path2='muzika12'
 
 for filename in os.listdir(path2):
     if filename.split('.')[-1] == 'wav':
@@ -66,9 +66,9 @@ for i in B:
 
 
 #Pravimo optimalan oblak tacaka
-max_embedding_dimension = 30
-max_time_delay = 30
-stride =30
+max_embedding_dimension = 100
+max_time_delay = 100
+stride =20
 
 
 embedder_periodic2 = SingleTakensEmbedding(
